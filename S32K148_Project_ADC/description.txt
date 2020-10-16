@@ -1,0 +1,7 @@
+Perform simple analog to digital conversions using software trigger: 
+• Initialize ADC for SW trigger, continuous mode 
+• loop:◦Convert channel connected to pot on evaluation board
+	◦Scale result to 0 to 5000 mV
+	◦Light evaluation board LEDs to reflect voltage level
+	◦Convert channel connected to the ADC high reference voltage 
+
